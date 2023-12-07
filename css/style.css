@@ -1,0 +1,161 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+  --nav-font-family: "Relaway", sans-serif;
+  --navy-blue-color: #2e2f42;
+  --iris-color: #4d5ae5;
+  --slate-color: #434455;
+  --white-color: #fff;
+  --ocean-color: #404bbf;
+  --cloud-color: #f4f4fd;
+}
+
+.body-section {
+  font-family: var(--font-family);
+  color: var(--slate-color);
+  background-color: #ffffffff;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris-color);
+}
+.link {
+  text-decoration: none;
+}
+.span {
+  color: var(--navy-blue-color);
+}
+.list {
+  list-style: none;
+}
+.nav-elements {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
+}
+.nav-elements:hover,
+.nav-elements:focus {
+  color: #404bbf;
+}
+.nav-link:focus {
+  color: #404bbf;
+}
+.adress {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  list-style: none;
+}
+.adress-color {
+  color: var(--slate-color);
+}
+
+.adress-color:hover,
+.adress-color:focus {
+  color: var(--ocean-color);
+}
+.header-title {
+  /* Header 1 */
+  font-family: "Roboto";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1.12px;
+  color: var(--white-color);
+  text-align: center;
+  line-height: 1.07;
+}
+.header-section {
+  background-color: var(--navy-blue-color);
+}
+.order-service-button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  font-style: normal;
+}
+.order-service-button:hover,
+.order-service-button:focus {
+  background-color: #404bbf;
+}
+.advantages-title {
+  font-size: 36px;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: var(--navy-blue-color);
+  text-align: center;
+  color: var(--navy-blue-color);
+}
+.advantages-sub-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
+}
+.paragraf {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
+}
+.section-c {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue-color);
+}
+.section-d {
+  background-color: #f4f4fd;
+}
+.image-section-d {
+  background-color: #ffffffff;
+}
+.footer-studio {
+  background-color: var(--navy-blue-color);
+}
+.footer-span {
+  color: #f4f4fd;
+}
+.footer-p {
+  line-height: 1.5;
+  color: var(--cloud-color);
+  letter-spacing: 0.02em;
+}
+/* pagina portfolio*/
+.portfolio-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris-color);
+  background-color: var(--cloud-color);
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffffff;
+  background-color: #404bbf;
+  cursor: pointer;
+}
+.h1-portfolio {
+  text-align: center;
+  font-family: "Roboto" sans-serif;
+}
