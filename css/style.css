@@ -7,12 +7,17 @@
   --white-color: #fff;
   --ocean-color: #404bbf;
   --cloud-color: #f4f4fd;
+  --cornflower-color: #e7e9fc;
 }
 
 .body-section {
   font-family: var(--font-family);
   color: var(--slate-color);
   background-color: #ffffffff;
+}
+.body-section-container {
+  width: 1158px;
+  height: 2592px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -23,6 +28,9 @@
   text-transform: uppercase;
   color: var(--iris-color);
 }
+.logo-content {
+  display: flex;
+}
 .link {
   text-decoration: none;
 }
@@ -31,6 +39,7 @@
 }
 .list {
   list-style: none;
+  display: flex;
 }
 .nav-elements {
   font-weight: 500;
@@ -45,6 +54,15 @@
 }
 .nav-link:focus {
   color: #404bbf;
+}
+.nav-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list-align {
+  display: flex;
+  gap: 40px;
 }
 .adress {
   font-family: "Roboto";
@@ -63,6 +81,14 @@
 .adress-color:focus {
   color: var(--ocean-color);
 }
+.adress-position {
+  display: flex;
+  justify-content: space; /**/
+}
+.mail-link {
+  margin-right: 40px;
+  margin-left: 332px;
+}
 .header-title {
   /* Header 1 */
   font-family: "Roboto";
@@ -76,6 +102,21 @@
 }
 .header-section {
   background-color: var(--navy-blue-color);
+  width: 1158px;
+  height: 600px;
+  flex-shrink: 0;
+}
+.header-container {
+  display: flex;
+  width: 1158px;
+  height: 72px;
+  justify-content: center;
+  border-bottom: 1px solid var(--cornflower-color);
+}
+.header-child {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 188px 472px 292px 472px;
 }
 .order-service-button {
   background-color: #4d5ae5;
@@ -91,6 +132,9 @@
 .order-service-button:hover,
 .order-service-button:focus {
   background-color: #404bbf;
+}
+.btn-first-section {
+  margin: 356px 635px 188px 636px;
 }
 .advantages-title {
   font-size: 36px;
@@ -130,6 +174,9 @@
 }
 .footer-studio {
   background-color: var(--navy-blue-color);
+  width: 1158px;
+  height: 312px;
+  flex-shrink: 0;
 }
 .footer-span {
   color: #f4f4fd;
@@ -158,4 +205,11 @@
 .h1-portfolio {
   text-align: center;
   font-family: "Roboto" sans-serif;
+}
+.container {
+  width: 1158px;
+  height: 2592px;
+}
+.section-b {
+  gap: 24px;
 }
