@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="design-technologies" />
     <meta name="keywords" content="effective-solutions-for-your-business" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,43 +22,38 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body class="body-section container-body">
+  <body class="body-section">
     <!--Header-section-->
 
-    <header>
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-      />
-      <div class="container">
-        <nav class="nav-box">
-          <a class="list link logo logo-content" href="./index.html"
+    <header class="header-">
+      <div class="header-div container">
+        <nav class="nav-">
+          <a class="list link logo" href="./index.html"
             >Web<span class="span">Studio</span>
           </a>
           <!--header-menu-->
-          <ul class="list nav-list-align">
+          <ul class="list nav-menu">
             <li>
-              <a class="nav-elements link" href="./index.html">Studio</a>
+              <a class="nav-elements link studio-link" href="./index.html"
+                >Studio</a
+              >
             </li>
             <li>
-              <a class="nav-elements link" href="./portfolio.html">Portfolio</a>
+              <a class="nav-elements link studio-link" href="./portfolio.html"
+                >Portfolio</a
+              >
             </li>
             <li>
-              <a class="nav-elements link" href=""> Contacts</a>
+              <a class="nav-elements link studio-link" href=""> Contacts</a>
             </li>
           </ul>
         </nav>
         <!--contacts-->
         <address class="adress">
           <!--de la <adress> am scos clasa adress-->
-          <ul class="list adress-position">
+          <ul class="list adress-list">
             <li>
-              <a
-                class="link adress-color mail-link"
-                href="mailto:info@devstudio.com"
+              <a class="link adress-color" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
@@ -75,10 +71,8 @@
     <main>
       <!--titel section-sectiunea 1-->
       <section class="header-section">
-        <h1 class="header-title header-child">
-          Effective Solutions for Your Business
-        </h1>
-        <button class="order-service-button btn-first-section" type="button">
+        <h1 class="header-title">Effective Solutions for Your Business</h1>
+        <button class="order-service-button" type="button">
           Order Service
         </button>
       </section>
@@ -86,7 +80,7 @@
       <!--advantage-list section sectiunea 2-->
       <section>
         <h2 class="advantages-title">Advantages</h2>
-        <ul class="list section-b">
+        <ul class="list">
           <li>
             <h3 class="advantages-sub-title">Strategy</h3>
             <p class="paragraf">
@@ -121,7 +115,7 @@
       <!--What-are-we-doing-sectiunea 3-->
       <section>
         <h2 class="section-c">What are we doing</h2>
-        <ul class="list section-b">
+        <ul class="list">
           <li>
             <img
               src="./images/what-are-we-doing-pict-1.jpg"
@@ -148,23 +142,28 @@
       <!--Our-Team-section-sectiunea-4-->
       <section class="section-d">
         <h2 class="section-c">Our Team</h2>
-        <ul class="list section-b">
-          <li class="image-section-d">
+        <ul class="list">
+          <li>
             <img src="./images/our-team-1.jpg" alt="our-team-1" width="264" />
             <h3 class="advantages-sub-title">Mark Guerrero</h3>
             <p class="paragraf">Product Designer</p>
           </li>
-          <li class="image-section-d">
-            <img src="./images/our-team-2.jpg" alt="our-team-2" width="264" />
+          <li>
+            <img
+              class="images"
+              src="./images/our-team-2.jpg"
+              alt="our-team-2"
+              width="264"
+            />
             <h3 class="advantages-sub-title">Tom Ford</h3>
             <p class="paragraf">Frontend Developer</p>
           </li>
-          <li class="image-section-d">
+          <li>
             <img src="./images/our-team-3.jpg" alt="our-team-3" width="264" />
             <h3 class="advantages-sub-title">Camila Garcia</h3>
             <p class="paragraf">Marketing</p>
           </li>
-          <li class="image-section-d">
+          <li>
             <img src="./images/our-team-4.jpg" alt="our-team-4" width="264" />
             <h3 class="advantages-sub-title">Daniel Wilson</h3>
             <p class="paragraf">UI Designer</p>
