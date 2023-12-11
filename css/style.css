@@ -25,7 +25,12 @@
   text-transform: uppercase;
   color: var(--iris-color);
 }
-
+.nav-li {
+  margin-right: 40px;
+}
+.nav-li-o {
+  margin-right: 0;
+}
 .link {
   text-decoration: none;
 }
@@ -162,6 +167,7 @@
   color: #ffffffff;
   background-color: #404bbf;
   cursor: pointer;
+  border: 1px solid transparent;
 }
 .h1-portfolio {
   text-align: center;
@@ -291,4 +297,31 @@
 }
 .footer-p-position {
   max-width: 264px;
+}
+.main-class {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.port-button-list {
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.port-btn {
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+}
+.second-port-list {
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.banking-app-link {
+  width: calc((100% - 48px) / 3);
+}
+.div-app-interface {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
