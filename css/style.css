@@ -238,6 +238,12 @@
 .s-section-list {
   gap: 24px;
 }
+.s-section-li {
+  margin-right: 24px;
+}
+.last-section-li {
+  margin-right: 0;
+}
 .strategy-space {
   width: 100%;
   min-width: 264px;
