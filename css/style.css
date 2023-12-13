@@ -13,7 +13,6 @@
 .body-section {
   font-family: var(--font-family);
   color: var(--slate-color);
-  background-color: #ffffffff;
 }
 
 .logo {
@@ -277,7 +276,7 @@
   margin-bottom: 72px;
 }
 .pictures-section-iv {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border-top-right-radius: 4px;
@@ -323,8 +322,9 @@
   column-gap: 24px;
   row-gap: 48px;
 }
-.banking-app-link {
-  flex-basis: calc((100% - 48px) / 3);
+.li.lists {
+  width: calc((100% - 48px) / 3);
+  text-decoration: none;
 }
 .div-app-interface {
   padding: 32px 16px;
@@ -338,5 +338,5 @@
   margin-left: 0;
 }
 .ccc {
-  padding: 0;
+  padding: 188px 0;
 }
