@@ -81,7 +81,8 @@
   letter-spacing: 1.12px;
   color: var(--white-color);
   text-align: center;
-  line-height: 1.07;
+  line-height: 1.07.143%;
+  max-width: 496px;
 }
 .header-section {
   background-color: var(--navy-blue-color);
@@ -92,15 +93,22 @@
 }
 
 .order-service-button {
-  background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  background: var(--iris-color);
+  color: var(--white-color);
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.64px;
   cursor: pointer;
-  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  padding: 16px 32px;
+  border-radius: 4px;
+  display: block;
+  align-items: flex-start;
+  gap: 10px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 .order-service-button:hover,
 .order-service-button:focus {
@@ -205,28 +213,15 @@
   gap: 40px;
 }
 .first-section {
-  align-items: center;
-  gap: 48px;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .prime-section {
   padding: 188px 0;
+  max-height: 600px;
 }
-.section-one-header {
-  max-width: 496px;
-  margin-top: 188px;
-  height: 56px;
-  margin: 0 auto;
-}
-.first-section-button {
-  min-width: 169px;
-  display: block;
-  height: 56px;
-  border: none;
-  background-color: var(--iris-color);
-  border-radius: 4px;
-  cursor: pointer;
-  margin: 0 auto;
-}
+
 .s-section {
   padding: 120px 0;
 }
@@ -336,8 +331,12 @@
   margin-left: 0;
 }
 .ccc {
-  padding: 188px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .ul-potf {
   padding: 0;
 }
